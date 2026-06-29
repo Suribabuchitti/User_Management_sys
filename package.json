@@ -2,11 +2,12 @@
   "name": "user_management_sys",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Suribabuchitti/User_Management_sys.git",
+  "homepage": "https://suribabuchitti.github.io/User_Management_sys/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
